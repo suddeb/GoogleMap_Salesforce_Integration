@@ -1,0 +1,7 @@
+/.settings
+/.project
+/salesforce.schema
+/Referenced Packages
+/src/*.xml
+/src/classes/*.xml
+/src/pages/*.xml
