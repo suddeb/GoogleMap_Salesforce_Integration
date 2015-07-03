@@ -41,7 +41,7 @@
                             		style:google.maps.ZoomControlStyle.DEFAULT // Change to SMALL to force just the + and - buttons.
                         		},
                         		center: myLatlng, // Centre the Map to our coordinates variable
-                        		mapTypeId: google.maps.MapTypeId.ROADMAP, // Set the type of Map
+                        		mapTypeId: google.maps.MapTypeId.HYBRID, // Set the type of Map
                         		scrollwheel: false, // Disable Mouse Scroll zooming (Essential for responsive sites!)
                         		// All of the below are set to true by default, so simply remove if set to true:
                         		panControl:false, // Set to false to disable
