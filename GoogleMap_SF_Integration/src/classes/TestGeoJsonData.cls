@@ -5,11 +5,11 @@ public class TestGeoJsonData {
 		'    \"features\": ['+
 		'      { \"type\": \"Feature\",'+
 		'        \"geometry\": {\"type\": \"Point\", \"coordinates\": [102.0, 0.5]},'+
-		'        \"properties\": {\"prop0\": \"value0\"}'+
+		'        \"properties\": {\"name\": \"value0\"}'+
 		'       },'+
 		'      { \"type\": \"Feature\",'+
 		'        \"geometry\": {\"type\": \"Point\", \"coordinates\": [102.0, 0.5]},'+
-		'        \"properties\": {\"prop0\": \"value0\"}'+
+		'        \"properties\": {\"name\": \"value0\"}'+
 		'        }'+
 		'       ]'+
 		'     }';
