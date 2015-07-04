@@ -1,4 +1,4 @@
-<apex:page >
+<apex:page standardStylesheets="false" showheader="false">
 	<html>
 		<head>
 			<title>Showing Zurich's Latitude and Longitude</title>
@@ -75,7 +75,7 @@
     					'Tile Coordinate: ' + tileCoordinate.x + ' , ' +
       						tileCoordinate.y + ' at Zoom Level: ' + map.getZoom()
   					].join('<br>');
-}
+				}
 
 
 				function initialize() {
