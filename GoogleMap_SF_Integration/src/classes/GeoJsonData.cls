@@ -1,6 +1,10 @@
 public with sharing class GeoJsonData {
 	public String type;
 	public List<Features> features;
+	
+	public GeoJsonData(){
+		features = new List<Features>();
+	}
 
 	public class Geometry {
 		public String type;
