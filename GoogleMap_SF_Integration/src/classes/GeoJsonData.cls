@@ -20,6 +20,10 @@ public with sharing class GeoJsonData {
 
 	public class Properties {
 		public String name;
+		
+		public Properties(String typeName){
+			name = typeName;
+		}
 	}
 	
 	public static GeoJsonData parse(String json) {
