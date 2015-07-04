@@ -20,21 +20,4 @@ public with sharing class GeoJsonData {
 	public static GeoJsonData parse(String json) {
 		return (GeoJsonData) System.JSON.deserialize(json, GeoJsonData.class);
 	}
-	
-	static testMethod void testParse() {
-		String json = '{ \"type\": \"FeatureCollection\",'+
-		'    \"features\": ['+
-		'      { \"type\": \"Feature\",'+
-		'        \"geometry\": {\"type\": \"Point\", \"coordinates\": [102.0, 0.5]},'+
-		'        \"properties\": {\"prop0\": \"value0\"}'+
-		'       },'+
-		'      { \"type\": \"Feature\",'+
-		'        \"geometry\": {\"type\": \"Point\", \"coordinates\": [102.0, 0.5]},'+
-		'        \"properties\": {\"prop0\": \"value0\"}'+
-		'        }'+
-		'       ]'+
-		'     }';
-		JSON2Apex obj = parse(json);
-		System.assert(obj != null);
-	}
 }
