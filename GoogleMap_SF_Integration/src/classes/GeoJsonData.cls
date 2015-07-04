@@ -5,6 +5,11 @@ public with sharing class GeoJsonData {
 	public class Geometry {
 		public String type;
 		public List<Double> coordinates;
+		
+		public Geometry(String typeName, List<Double> myCoordinates){
+			type = typeName;
+			coordinates = myCoordinates;
+		}
 	}
 
 	public class Features {
@@ -14,7 +19,7 @@ public with sharing class GeoJsonData {
 	}
 
 	public class Properties {
-		public String prop0;
+		public String name;
 	}
 	
 	public static GeoJsonData parse(String json) {
