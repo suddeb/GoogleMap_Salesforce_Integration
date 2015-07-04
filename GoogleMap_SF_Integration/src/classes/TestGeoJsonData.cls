@@ -13,7 +13,7 @@ public class TestGeoJsonData {
 		'        }'+
 		'       ]'+
 		'     }';
-		GeoJsonData obj = parse(json);
+		GeoJsonData obj = GeoJsonData.parse(json);
 		System.assert(obj != null);
 	}
 }
