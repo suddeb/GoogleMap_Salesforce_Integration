@@ -1,11 +1,15 @@
-public with sharing class GeoJsonData {
+public class GeoJsonData {
 	public String type;
 	public List<Features> features;
 	
 	public GeoJsonData(){
 		features = new List<Features>();
 	}
-
+	/*
+	public void add(sudipta.GeoJsonData.Features singleFeature){
+		features.insert(singleFeature);
+	}
+	*/
 	public class Geometry {
 		public String type;
 		public List<Double> coordinates;
